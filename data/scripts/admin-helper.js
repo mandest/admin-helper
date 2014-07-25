@@ -122,7 +122,8 @@ var Xpath = {
 
         var queryType = multi ? XPathResult.ORDERED_NODE_SNAPSHOT_TYPE : XPathResult.FIRST_ORDERED_NODE_TYPE;
 
-        var result = document.evaluate(path, source, null, queryType);
+        console.log(path, source, null, queryType);
+        var result = document.evaluate(path, source, null, queryType, null);
 
         if (multi) {
             return new QueryResult(result);
