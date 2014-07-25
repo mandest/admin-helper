@@ -1,7 +1,5 @@
 # Admin Helper
 
-[![Build Status](https://travis-ci.org/mandest/admin-helper.png)](https://travis-ci.org/mandest/admin-helper)
-
 Adds summary data for ADMIN timesheet entries based on convention
 (any string before the first `:` character will be used as the entry category).
 
